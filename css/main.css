@@ -1,0 +1,277 @@
+html, body {
+    height: 100%;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+h1 {
+	color:#c3136a;	
+}
+
+p {
+	line-height:2.0vw;
+	margin:2vw 0px 2vw 0px;
+}
+
+.header {
+	overflow:hidden;
+	margin:0px;
+	width:100%;
+	height:60vh;
+	position:relative;		
+}
+
+	.faurecia-logo {
+		position:absolute;
+		top:10%;
+		left:10%;
+		right:10%;		
+	}
+	
+	.faurecia-take-a-seat {
+		position:absolute;
+		bottom:15%;
+		left:10%;
+		right:10%;		
+	}
+
+	.vimeo-wrapper {
+	   position: relative;
+	   top: 0;
+	   left: 0;
+	   width: 100%;
+	   height: 100%;
+	   z-index: -1;
+	   pointer-events: none;
+	   overflow: hidden;
+	}
+	.vimeo-wrapper iframe {
+	   width: 100vw;
+	   height: 56.25vw; 
+	   min-height: 100vh;
+	   min-width: 177.77vh;
+	   position: absolute;
+	   top: 50%;
+	   left: 50%;
+	   transform: translate(-50%, -50%);
+	}
+
+.newPage {
+	margin:8vw 0vw 8vw 0vw;
+}	
+	
+.content {	
+	margin-left:10%;
+	margin-right:10%;
+	height:auto;
+	position:relative;
+}	
+
+#svgContainer {	 
+	 right:0;
+	 float:right;	 
+}
+
+.svgMain {
+	padding:2vw;
+	background-color:#fff;
+	-webkit-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+	-moz-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+	box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);		
+	position:absolute;
+	font-size:1.2vw;
+	font-weight:bold;
+	width:36%;
+}
+
+	#svgMain1 {
+		left:0;
+		z-index:10;
+	}
+	
+	#svgMain2 {
+		right:14vw;		
+		top:16.5vw;
+		z-index:1;
+		color:#7f97cd;
+	}
+	
+	#svgMain3 {
+		right:0;	
+		top:4.5vw;
+		color:#c3136a;
+		z-index:10;
+	}
+	
+	.svgTitle {
+		margin:0px 1vw 0px 1vw;
+	}
+	
+.faureciaWPolsce ul {
+	list-style:none;
+	font-size:0.9vw;
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+}	
+
+.faureciaWPolsce li {
+	margin:10px 0px 10px 0px;
+}
+
+.faureciaWPolsce a {
+	color:#000;
+}
+
+.liSelected { 
+	color:#cc3882;
+}
+
+.faureciaWPolsceImg {	
+	width:100%;
+	height:100%;
+}
+
+.faureciaWPolsceText {
+	position:absolute;
+	background-color:#fff;
+	width:50%;
+	right:0;
+	bottom:0;
+	padding:1.5vw 3vw 1.5vw 3vw;
+	-webkit-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+	-moz-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+	box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);	
+	font-size:0.9vw;		
+}
+
+	.faureciaWPolsceText p {
+		margin:10px 0px 0px 0px;
+		line-height:1.5vw;
+	}
+	
+
+	.faureciaWPolsceText h1 {
+		color:#213383;
+		margin:10px 0px 10px 0px;
+		font-weight:bold;
+		font-size:1.8vw;	
+	}
+	
+	.faureciaWPolsceMapa {
+		margin:3vw 0px 0px 0px;
+	}
+
+.dolaczDoNas {	
+	overflow:hidden;	
+	position:relative;		
+}
+
+	.ramieBg {
+		position:absolute;
+		top:0;
+		right:0;		
+		width:21vw;
+	}
+	.carBg {
+		position:absolute;
+		bottom:0;
+		left:0;		
+		width:40vw;
+	}
+
+	.dolaczDoNas h1 {
+		color:#213383;
+		font-weight:bold;
+		font-size:1.8vw;	
+		text-align:center;
+		margin:4vw 0px 3vw 0px;
+	}
+	
+	.dolaczForm {
+		width:60vw;		
+		margin:8vw auto 12vw auto;
+		overflow:hidden;
+	}
+	
+	.dolaczForm select {
+		padding:1vw;
+		width:100%;
+		color:#213383;
+		font-size:1vw;
+		border:0px;
+		border-bottom:2px solid #e00069;
+		background: url('../img/arrow.png') no-repeat right;
+		-moz-appearance:none; /* Firefox */
+		-webkit-appearance:none; /* Safari and Chrome */
+		appearance:none;
+		background-position-x: 99%;
+	}
+	
+	.dolaczForm  select option {
+		color:#213383;
+		font-weight:bold;
+		border:0px;
+	}
+	
+	.wyszukajOferty {
+		margin:5vw auto 0px auto;
+		background-color:#e00069;
+		-webkit-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+		-moz-box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);
+		box-shadow: 0px 0px 38px -5px rgba(112,112,112,1);	
+		border:0px;
+		padding:1vw 5vw 1vw 5vw;
+		font-size:0.8vw;
+		font-weight:bold;
+		color:#fff;
+	}
+	
+.ludzie {	
+	font-size:0.9vw;	
+}
+
+		.ludzie .quoteBox {
+			position:relative;
+		}
+
+		.ludzie blockquote {
+			border-left:0px;
+			font-size:0.9vw;	
+		}		
+
+		.ludzie .ludze-blockquote{			  
+			  width:60%;
+			  margin:50vw auto;			  
+			  color: #c6c6c6;
+			  padding:1vw 1vw 1vw 1vw;			  			  
+			  position: relative;
+			  background:#EDEDED;	
+			  z-index:10; 			  
+			  
+			}
+
+			.ludzie .ludzie-blockquote::before{			  
+			  content: "\201C";
+			  color:#c6c6c6;
+			  font-size:8vw;
+			  position: absolute;
+			  left: -0.8vw;
+			  top:-0.6vw;		
+			  z-index:-10;
+				font-weight:bold;			  
+			}
+
+			.ludzie-blockquote::after{
+			  content: '';
+			}
+
+			.ludzie-blockquote span{
+			  display:block;
+			  color:#333333;
+			  font-style: normal;
+			  font-weight: bold;
+			  margin-top:1vw;
+			  text-align:right;
+			  
+			}
+
